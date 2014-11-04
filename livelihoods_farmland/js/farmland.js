@@ -13,7 +13,7 @@ $.ajax({
     dataType: 'json',
     timeout: 10000,
     success: function(json) {
-        guineaCities = json;
+        barangays = json;
         console.log('Success');
     },
     error: function(e) {
@@ -29,7 +29,7 @@ $.ajax({
 $('#navigation').change(function() {
     var place = $('#navigation option:selected').text();
 
-    $.each(barangay, function(index, item) {
+    $.each(barangays, function(index, item) {
         if (place == item.barangay) {
             var latlng = L.latLng(item.lat, item.lon);
             map.setView(latlng, 17);
