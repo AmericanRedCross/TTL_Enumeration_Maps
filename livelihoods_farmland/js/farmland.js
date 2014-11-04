@@ -4,7 +4,7 @@ L.mapbox.accessToken = 'pk.eyJ1IjoiYW1lcmljYW5yZWRjcm9zcyIsImEiOiJzdHVRWjA4In0.b
 L.mapbox.map('map')
     .setView([11.0848,124.9269],12);
 
-//lets get barangay.json
+// Let's get barangays.json
 
 $.ajax({
     type: 'GET',
@@ -24,14 +24,14 @@ $.ajax({
 
 // Switch between barangays
 
-//option for barangays
-//changes location of map to selected barangay centroid (lat/long)
+// Option for barangays
+// Changes location of map to selected barangay centroid (lat/long)
 $('#navigation').change(function() {
     var place = $('#navigation option:selected').text();
 
     $.each(barangays, function(index, item) {
         if (place == item.barangay) {
-            var latlng = L.latLng(item.lat, item.lon);
+            var latlng = L.LatLng(item.lat, item.lon);
             map.setView(latlng, 17);
         }
     });

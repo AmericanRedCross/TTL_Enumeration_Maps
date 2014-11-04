@@ -96,14 +96,14 @@
         "lon": 10.857042650132074,
         "zoom": 17,
         "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Wilson",
         "lat": 124.968385861888947,
         "lon": 10.85539027734098,
         "zoom": 17,
         "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Burabod",
         
@@ -111,49 +111,49 @@
         "lon": 10.83261616411237,
         "zoom": 17,
         "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Danao",
         "lat": 124.956361983448048,
         "lon": 10.817507728349018,
         "zoom": 17,
         "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Kiling",
         "lat": 124.91811976969683,
         "lon": 10.830741902826754,
         "zoom": 17,
         "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Lanawan",
         "lat": 124.865254202687396,
         "lon": 10.828609813207029,
         "zoom": 17,
         "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Ognisan",
         "lat": 124.883324526946282,
         "lon": 10.820337220288446,
         "zoom": 17,
         "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "San Antonio",
         "lat": 124.894972881221193,
         "lon": 10.823816326624664,
         "zoom": 17,
         "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "San Isidro",
         "lat": 124.990421922054381,
         "lon": 10.837539225548319,
         "zoom": 17,
         "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Santa Isabel",
         "lat": 124.894979760984725,
@@ -167,6 +167,5 @@
         "lon": 10.808678218493579,
         "zoom": 17,
         "mapboxID": "americanredcross.y8wzsemi"
-    }    
-
+    }
 ]
