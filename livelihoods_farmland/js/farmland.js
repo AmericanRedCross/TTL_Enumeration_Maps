@@ -13,7 +13,7 @@ $.ajax({
     dataType: 'json',
     timeout: 10000,
     success: function(json) {
-        barangays = json;
+        barangay = json;
         console.log('Success');
     },
     error: function(e) {
@@ -29,9 +29,9 @@ $.ajax({
 $('#navigation').change(function() {
     var place = $('#navigation option:selected').text();
 
-    $.each(barangays, function(index, item) {
+    $.each(barangay, function(index, item) {
         if (place == item.barangay) {
-            var latlng = L.LatLng(item.lat, item.lon);
+            var latlng = new L.latLng(item.lat, item.lon);
             map.setView(latlng, 17);
         }
     });
