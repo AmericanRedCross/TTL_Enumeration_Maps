@@ -1,7 +1,7 @@
 // Create a map in the div #map
 L.mapbox.accessToken = 'pk.eyJ1IjoiYW1lcmljYW5yZWRjcm9zcyIsImEiOiJzdHVRWjA4In0.bnfdwZhKX8tQeMkwY-kknQ';
 
-L.mapbox.map('map')
+var map = L.mapbox.map('map', 'americanredcross.3fa11223')
     .setView([11.0848,124.9269],12);
 
 // Let's get barangays.json
