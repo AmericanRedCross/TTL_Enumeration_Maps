@@ -31,7 +31,7 @@ $('#navigation').change(function() {
 
     $.each(barangay, function(index, item) {
         if (place == item.barangay) {
-            var latlng = new L.latLng(item.lat, item.lon);
+            var latlng = new L.latLng(item.lon, item.lat);
             map.setView(latlng, 17);
         }
     });
