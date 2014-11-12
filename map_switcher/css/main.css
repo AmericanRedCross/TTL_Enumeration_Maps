@@ -1,0 +1,246 @@
+#map {
+    position:absolute;
+    z-index:0;
+
+    width:100%;
+    height:100%;
+}
+
+
+#navigation {
+    z-index:1;
+    position:absolute;
+    top:1%;
+    left:5%;
+}
+
+/* Legend */
+
+.box {
+    position:absolute;
+    z-index:1;
+    top:10%;
+    right:7%;
+
+    width:25%;
+    height:200px;
+
+    opacity:0.70;
+    background-color:#383838;
+    box-shadow: 5px 5px 2px #7F7F7F;
+
+    font-family:'Cisalpin';
+}
+
+.boxtitle {
+    position:absolute;
+    z-index:2;
+    top:3%;
+    left:10px;
+
+    color:#FFFFFF;
+
+    font-family: 'Cisalpin';
+    font-size: 150%;
+}
+
+.subtitle1 {
+    position:absolute;
+    z-index:2;
+    top:15%;
+    left:10px;
+
+    color:#FFFFFF;
+
+    font-family: 'Cisalpin';
+    font-size: 110%;
+}
+
+/*.subtitle2 {
+    position:absolute;
+    z-index:2;
+    top:90px;
+    left:10px;
+
+    color:#FFFFFF;
+
+    font-family: 'Cisalpin';
+    font-size: 100%;
+}
+
+*/
+
+/*.number {
+    position:absolute;
+    z-index:2;
+    right:120px;
+    bottom:0px;
+
+    color:#FFFFFF;
+
+    font-family: 'Cisalpin';
+    font-size: 150%;
+}
+
+.name {
+    position:absolute;
+    z-index:2;
+    right:20px;
+    bottom:10px;
+
+    color:#FFFFFF;
+
+    font-family: 'Cisalpin';
+    font-size: 100%;
+}*/
+
+/* legend boxes */
+
+.colors-legend {
+    position:absolute;
+    z-index:2;
+    top:25%;
+    left:10px;
+    font-color:#ffffff;
+}
+    .label {
+        font-family:'Cisalpin';
+        color:#ffffff;
+    }
+    .swatch1 {
+        background:#877676;
+        height: 16px;
+        margin-right: 5px;
+        display: table-cell;
+        vertical-align:middle;
+        text-align: center;
+        width: 16px;
+        display: inline-block;
+    }
+    .swatch2 {
+        background:#ff0000;
+        height: 16px;
+        margin-right: 5px;
+        display: table-cell;
+        vertical-align:middle;
+        text-align: center;
+        width: 16px;
+        display: inline-block;
+    }
+    .swatch3 {
+        background:#ff880e;
+        height: 16px;
+        margin-right: 5px;
+        display: table-cell;
+        vertical-align:middle;
+        text-align: center;
+        width: 16px;
+        display: inline-block;
+    }
+    .swatch4 {
+        background:#b33ac0;
+        height: 16px;
+        margin-right: 5px;
+        display: table-cell;
+        vertical-align:middle;
+        text-align: center;
+        width: 16px;
+        display: inline-block;
+    }
+    .swatch5 {
+        background:#308edf;
+        height: 16px;
+        margin-right: 5px;
+        display: table-cell;
+        vertical-align:middle;
+        text-align: center;
+        width: 16px;
+        display: inline-block;
+    }
+    .swatch6 {
+        background:#ffe412;
+        height: 16px;
+        margin-right: 5px;
+        display: table-cell;
+        vertical-align:middle;
+        text-align: center;
+        width: 16px;
+        display: inline-block;
+    }
+    .swatch7 {
+        background:#3eb951;
+        height: 16px;
+        margin-right: 5px;
+        display: table-cell;
+        vertical-align:middle;
+        text-align: center;
+        width: 16px;
+        display: inline-block;
+    }
+/*   .swatch8 {
+        background:#d5d5d5;
+        height: 16px;
+        margin-right: 5px;
+        display: table-cell;
+        vertical-align:middle;
+        text-align: center;
+        width: 16px;
+        display: inline-block;
+    }   
+*/
+
+/* MAP STUFF */
+
+/*
+#ZoomLevelBox {
+    position: absolute;
+    z-index: 9999;
+    top: 110px;
+    left: 70px;
+
+    padding: 6px 8px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+
+    font-size:smaller;
+}
+*/
+
+/*#toggleLegends {
+    position: absolute;
+    z-index: 1;
+    top: 110px;
+    left: 70px;
+
+    padding: 6px 8px;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.4);
+
+    font-size:smaller;
+}*/
+
+.map-tooltip {
+    font-size: small;
+}
+
+.navbar {
+    height: 100px;
+
+    background-color: #fff;
+}
+
+/* Logos placeholder */
+
+#arclogo,
+#brclogo,
+#ifrclogo,
+#prclogo {  
+  height: 35px;
+  margin: 0 15px 10px 0;  
+}
