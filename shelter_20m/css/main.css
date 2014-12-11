@@ -1,0 +1,213 @@
+#map {
+    position:absolute;
+    z-index:0;
+
+    width:100%;
+    height:100%;
+}
+
+
+#navigation {
+    z-index:1;
+    position:absolute;
+    top:1%;
+    left:5%;
+}
+
+/* Legend */
+
+.box {
+    position:absolute;
+    z-index:1;
+    top:10%;
+    right:7%;
+
+    width:40%;
+    height:25%;
+    padding:4%;
+
+    opacity:0.70;
+    background-color:#383838;
+    box-shadow: 5px 5px 2px #7F7F7F;
+
+    font-family:'Cisalpin';
+}
+
+.boxtitle {
+    position:absolute;
+    z-index:2;
+    top:3%;
+    left:10px;
+
+    color:#FFFFFF;
+
+    font-family: 'Cisalpin';
+    font-size: 150%;
+}
+
+.subtitle1 {
+    position:absolute;
+    z-index:2;
+    top:15%;
+    left:10px;
+
+    color:#FFFFFF;
+
+    font-family: 'Cisalpin';
+    font-size: 110%;
+}
+
+.legend-disclaimer {
+    position:absolute;
+    z-index:2;
+    bottom:0%;
+    left:10px;
+
+    color:#FFFFFF;
+
+    font-family: 'Cisalpin';
+    font-size: 70%;
+}
+
+/*.subtitle2 {
+    position:absolute;
+    z-index:2;
+    top:90px;
+    left:10px;
+
+    color:#FFFFFF;
+
+    font-family: 'Cisalpin';
+    font-size: 100%;
+}
+
+*/
+
+/*.number {
+    position:absolute;
+    z-index:2;
+    right:120px;
+    bottom:0px;
+
+    color:#FFFFFF;
+
+    font-family: 'Cisalpin';
+    font-size: 150%;
+}
+
+.name {
+    position:absolute;
+    z-index:2;
+    right:20px;
+    bottom:10px;
+
+    color:#FFFFFF;
+
+    font-family: 'Cisalpin';
+    font-size: 100%;
+}*/
+
+/* legend boxes */
+
+.colors-legend {
+    position:absolute;
+    z-index:2;
+    top:30%;
+    left:10px;
+    font-color:#ffffff;
+}
+    .label {
+        font-family:'Cisalpin';
+        color:#ffffff;
+        font-size:85%;
+    }
+    .swatch1 {
+        border-radius:50%;
+        width:16px;
+        height:16px;
+        background:#ff0505;
+        margin-right: 5px;
+        display: table-cell;
+        vertical-align:middle;
+        text-align: center;
+        display: inline-block;
+    }
+    .swatch2 {
+        border-radius:50%;
+        width:16px;
+        height:16px;
+        background:#f4c857;
+        margin-right: 5px;
+        display: table-cell;
+        vertical-align:middle;
+        text-align: center;
+        display: inline-block;
+    }
+    .swatch3 {
+        border-radius:50%;
+        width:16px;
+        height:16px;
+        background:#5e635d;
+        margin-right: 5px;
+        display: table-cell;
+        vertical-align:middle;
+        text-align: center;
+        display: inline-block;
+    }
+
+
+/* MAP STUFF */
+
+/*
+#ZoomLevelBox {
+    position: absolute;
+    z-index: 9999;
+    top: 110px;
+    left: 70px;
+
+    padding: 6px 8px;
+
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    background-color: white;
+
+    font-size:smaller;
+}
+*/
+
+/*#toggleLegends {
+    position: absolute;
+    z-index: 1;
+    top: 110px;
+    left: 70px;
+
+    padding: 6px 8px;
+
+    cursor: pointer;
+
+    border-radius: 5px;
+    background-color: white;
+    box-shadow: 0 1px 7px rgba(0,0,0,0.4);
+
+    font-size:smaller;
+}*/
+
+.map-tooltip {
+    font-size: small;
+}
+
+.navbar {
+    height: 100px;
+
+    background-color: #fff;
+}
+
+/* Logos placeholder */
+
+#arclogo,
+#brclogo,
+#ifrclogo,
+#prclogo {  
+  height: 35px;
+  margin: 0 15px 10px 0;  
+}
