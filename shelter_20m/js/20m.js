@@ -1,7 +1,7 @@
 // Create a map in the div #map
 L.mapbox.accessToken = 'pk.eyJ1IjoiYW1lcmljYW5yZWRjcm9zcyIsImEiOiJzdHVRWjA4In0.bnfdwZhKX8tQeMkwY-kknQ';
 
-L.mapbox.map('map','americanredcross.b9f58b6e')
+var map = L.mapbox.map('map','americanredcross.b9f58b6e')
     .setView([11.0848,124.9269],12);
 
 //lets get barangay.json
@@ -31,7 +31,7 @@ $('#navigation').change(function() {
 
     $.each(barangays, function(index, item) {
         if (place == item.barangay) {
-            var latlng = new L.LatLng(item.lat, item.lon);
+            var latlng = new L.latLng(item.lat, item.lon);
             map.setView(latlng, 17);
         }
     });
