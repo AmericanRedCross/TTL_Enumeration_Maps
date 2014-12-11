@@ -31,13 +31,8 @@ $('#navigation').change(function() {
 
     $.each(barangay, function(index, item) {
         if (place == item.barangay) {
-<<<<<<< HEAD
-            var latlng = L.LatLng(item.lat, item.lon);
-            map.setView(latlng, 17);
-=======
             var latlng = new L.latLng(item.lon, item.lat);
             map.setView(latlng, 15);
->>>>>>> cf83c4c50fce2eb312465a91a5faeda32b3a3d80
         }
     });
 
