@@ -4,169 +4,143 @@
         "lat": 124.883900421901787,
         "lon": 11.161665432830594,
         "zoom": 17,
-        "mapboxID": "americanredcross.5351att9"
     },
     {
         "barangay": "Hubang",
         "lat": 124.849326936101278,
         "lon": 11.219158482427753,
         "zoom": 17,
-        "mapboxID": "americanredcross.el95dn29"
     },
     {
         "barangay": "Astorga",
         "lat": 124.862053533201788,
         "lon": 11.157768216015215,
         "zoom": 17,
-        "mapboxID": "americanredcross.xaud6lxr"
     },
     {
         "barangay": "Penalosa",
         "lat": 124.867347051717511,
         "lon": 11.181781241887858,
         "zoom": 17,
-        "mapboxID": "americanredcross.fy5019k9"
     },
     {
         "barangay": "Santiago",
         "lat": 124.827801176317068,
         "lon": 11.200388518873119,
         "zoom": 17,
-        "mapboxID": "americanredcross.hnoh6w29"
     },
     {
         "barangay": "San Paglaum",
         "lat": 124.938642446712606,
         "lon": 11.248000778616486,
         "zoom": 17,
-        "mapboxID": "americanredcross.gahy3nmi"
     },
     {
         "barangay": "Palanog",
         "lat": 124.998420941710663,
         "lon": 11.247080362555407,
         "zoom": 17,
-        "mapboxID": "americanredcross.gahy3nmi"
     },
     {
         "barangay": "Paseo",
         "lat": 124.994292595159308,
         "lon": 11.242667912647406,
         "zoom": 17,
-        "mapboxID": "americanredcross.gsvbcsor"
     },
     {
         "barangay": "San Jose",
         "lat": 125.012505189352538,
         "lon": 11.207925863044505,
         "zoom": 17,
-        "mapboxID": "americanredcross.svw019k9"
     },
     {
         "barangay": "Marasbaras",
         "lat": 125.009532704995365,
         "lon": 11.203422967469868,
         "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
     },
     {
         "barangay": "Burgos",
         "lat": 124.978525629888068,
         "lon": 10.876984474121695,
         "zoom": 17,
-        "mapboxID": "americanredcross.bd8cl3di"
     },
     {
         "barangay": "San Roque",
         "lat": 125.009129842002849,
         "lon": 10.893889822622164,
         "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
     },
     {
         "barangay": "Talisay",
         "lat": 124.978242418315432,
         "lon": 10.916177957670251,
         "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
     },
     {
         "barangay": "Union",
         "lat": 124.997588949680264,
         "lon": 10.857042650132074,
         "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Wilson",
         "lat": 124.968385861888947,
         "lon": 10.85539027734098,
         "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Burabod",
         
         "lat": 124.930476998871173,
         "lon": 10.83261616411237,
         "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Danao",
         "lat": 124.956361983448048,
         "lon": 10.817507728349018,
         "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Kiling",
         "lat": 124.91811976969683,
         "lon": 10.830741902826754,
         "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Lanawan",
         "lat": 124.865254202687396,
         "lon": 10.828609813207029,
         "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Ognisan",
         "lat": 124.883324526946282,
         "lon": 10.820337220288446,
         "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "San Antonio",
         "lat": 124.894972881221193,
         "lon": 10.823816326624664,
         "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "San Isidro",
         "lat": 124.990421922054381,
         "lon": 10.837539225548319,
         "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
-    },        
+    },
     {
         "barangay": "Santa Isabel",
         "lat": 124.894979760984725,
         "lon": 10.83396491368779,
-        "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
-    },
+        "zoom": 17,    },
     {
         "barangay": "Villa Imelda",
         "lat": 124.981790873817829,
         "lon": 10.808678218493579,
         "zoom": 17,
-        "mapboxID": "americanredcross.y8wzsemi"
-    }    
-
+    }
 ]

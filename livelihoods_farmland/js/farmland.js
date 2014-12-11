@@ -1,10 +1,10 @@
 // Create a map in the div #map
 L.mapbox.accessToken = 'pk.eyJ1IjoiYW1lcmljYW5yZWRjcm9zcyIsImEiOiJzdHVRWjA4In0.bnfdwZhKX8tQeMkwY-kknQ';
 
-L.mapbox.map('map')
+var map = L.mapbox.map('map')
     .setView([11.0848,124.9269],12);
 
-//lets get barangay.json
+// Let's get barangays.json
 
 $.ajax({
     type: 'GET',
@@ -13,7 +13,7 @@ $.ajax({
     dataType: 'json',
     timeout: 10000,
     success: function(json) {
-        barangays = json;
+        barangay = json;
         console.log('Success');
     },
     error: function(e) {
@@ -24,15 +24,20 @@ $.ajax({
 
 // Switch between barangays
 
-//option for barangays
-//changes location of map to selected barangay centroid (lat/long)
+// Option for barangays
+// Changes location of map to selected barangay centroid (lat/long)
 $('#navigation').change(function() {
     var place = $('#navigation option:selected').text();
 
-    $.each(barangays, function(index, item) {
+    $.each(barangay, function(index, item) {
         if (place == item.barangay) {
+<<<<<<< HEAD
             var latlng = L.LatLng(item.lat, item.lon);
             map.setView(latlng, 17);
+=======
+            var latlng = new L.latLng(item.lon, item.lat);
+            map.setView(latlng, 15);
+>>>>>>> cf83c4c50fce2eb312465a91a5faeda32b3a3d80
         }
     });
 
