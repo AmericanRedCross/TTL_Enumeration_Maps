@@ -2,7 +2,7 @@
 L.mapbox.accessToken = 'pk.eyJ1IjoiYW1lcmljYW5yZWRjcm9zcyIsImEiOiJzdHVRWjA4In0.bnfdwZhKX8tQeMkwY-kknQ';
 
 var map = L.mapbox.map('map','americanredcross.b9f58b6e')
-    .setView([11.0848,124.9269],12);
+    .setView([10.99904,124.9001],11);
 
 //lets get barangay.json
 
