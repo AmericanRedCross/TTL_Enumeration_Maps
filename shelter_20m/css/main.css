@@ -19,11 +19,11 @@
 .box {
     position:absolute;
     z-index:1;
-    top:10%;
-    right:7%;
+    top:0.4%;
+    right:0.4%;
 
     width:40%;
-    height:25%;
+    height:27.5%;
     padding:4%;
 
     opacity:0.70;
